@@ -1,0 +1,87 @@
+/* 🌸 Estilo suave en azul claro y rosa para el portafolio de Milagros */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefcfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to right, #a0c4ff, #ffc8dd);
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1rem;
+  border-bottom: 4px solid #ffd6e8;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  background-color: #f3f8ff;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(160, 196, 255, 0.2);
+}
+
+.section h2 {
+  color: #6c91c2;
+  border-bottom: 2px solid #ffc8dd;
+  padding-bottom: 0.5rem;
+}
+
+.section h3 {
+  color: #7c6fa5;
+  margin-top: 1.5rem;
+}
+
+.proyecto {
+  margin-top: 1rem;
+}
+
+a {
+  color: #ff82a9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #a0c4ff;
+  text-align: center;
+  padding: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 2rem;
+  border-top: 4px solid #ffc8dd;
+}
+
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  .section {
+    padding: 1rem;
+  }
+  .section h2, .section h3 {
+    font-size: 1.4rem;
+  }
+  footer {
+    font-size: 0.9rem;
+  }
+}
