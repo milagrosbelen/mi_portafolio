@@ -27,6 +27,19 @@ header p {
   margin-top: 0.5rem;
 }
 
+.nav{
+  display: inline;
+  width: auto;
+}
+ li{
+  display: inline-block;
+  padding: 6px;
+  cursor: pointer;
+}
+ li:hover{
+    color: #7c6fa5;
+    cursor: pointer;
+}
 .section {
   max-width: 900px;
   margin: 2rem auto;
