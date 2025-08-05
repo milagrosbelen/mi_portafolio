@@ -86,10 +86,10 @@ footer {
 
 
 .contenedor-proyectos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem;
 }
 
 .card-proyecto {
@@ -138,22 +138,14 @@ footer {
 .card-proyecto a:hover {
   background-color: #5146d7;
 }
-
-@media screen and (max-width: 768px) {
-  header h1 {
-    font-size: 2rem;
-  }
-  .section {
-    padding: 1rem;
-  }
-  .section h2, .section h3 {
-    font-size: 1.4rem;
-  }
-  footer {
-    font-size: 0.9rem;
-  }
+.card-proyecto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; 
 }
-.nav{
+   .nav{
   display: inline;
   width: auto;
 }
@@ -171,3 +163,21 @@ ul{
     color: #7c6fa5;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  .section {
+    padding: 1rem;
+  }
+  .section h2, .section h3 {
+    font-size: 1.4rem;
+  }
+  footer {
+    font-size: 0.9rem;
+  }
+ 
+}
+
+
