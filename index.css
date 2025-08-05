@@ -84,6 +84,61 @@ footer {
   border-top: 4px solid #ffc8dd;
 }
 
+
+.contenedor-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card-proyecto {
+  background-color: #fdfdfd;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.card-proyecto:hover {
+  transform: translateY(-5px);
+}
+
+.card-proyecto img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-proyecto h3 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.card-proyecto p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.card-proyecto a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  background-color: #6c63ff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.card-proyecto a:hover {
+  background-color: #5146d7;
+}
+
 @media screen and (max-width: 768px) {
   header h1 {
     font-size: 2rem;
